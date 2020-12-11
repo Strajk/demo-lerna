@@ -1,0 +1,29 @@
+{
+  "name": "@strajk/demo-lerna-some-text",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Pavel 'Strajk' Dolecek <strajk@me.com> (https://www.strajk.me/)",
+  "homepage": "https://github.com/Strajk/demo-lerna#readme",
+  "license": "ISC",
+  "main": "lib/demo-lerna-some-text.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strajk/demo-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Strajk/demo-lerna/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}

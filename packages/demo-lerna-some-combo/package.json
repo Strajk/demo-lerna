@@ -1,0 +1,27 @@
+{
+  "name": "@strajk/demo-lerna-some-combo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Pavel 'Strajk' Dolecek <strajk@me.com> (https://www.strajk.me/)",
+  "homepage": "https://github.com/Strajk/demo-lerna#readme",
+  "license": "ISC",
+  "main": "dist/demo-lerna-some-combo.js",
+  "module": "dist/demo-lerna-some-combo.module.js",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strajk/demo-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Strajk/demo-lerna/issues"
+  }
+}
