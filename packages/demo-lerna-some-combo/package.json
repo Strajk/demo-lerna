@@ -1,6 +1,6 @@
 {
   "name": "@strajk/demo-lerna-some-combo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Pavel 'Strajk' Dolecek <strajk@me.com> (https://www.strajk.me/)",
   "homepage": "https://github.com/Strajk/demo-lerna#readme",
@@ -25,8 +25,8 @@
     "url": "https://github.com/Strajk/demo-lerna/issues"
   },
   "dependencies": {
-    "@strajk/demo-lerna-some-text": "*",
-    "@strajk/demo-lerna-some-emoji": "*",
-    "@strajk/demo-lerna-some-number":  "*"
+    "@strajk/demo-lerna-some-emoji": "^0.0.1",
+    "@strajk/demo-lerna-some-number": "^0.0.1",
+    "@strajk/demo-lerna-some-text": "^0.0.1"
   }
 }
