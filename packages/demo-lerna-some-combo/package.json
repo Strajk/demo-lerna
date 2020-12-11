@@ -23,5 +23,10 @@
   },
   "bugs": {
     "url": "https://github.com/Strajk/demo-lerna/issues"
+  },
+  "dependencies": {
+    "@strajk/demo-lerna-some-text": "*",
+    "@strajk/demo-lerna-some-emoji": "*",
+    "@strajk/demo-lerna-some-number":  "*"
   }
 }

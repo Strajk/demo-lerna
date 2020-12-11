@@ -1,7 +1,8 @@
-const lodash = require("lodash");
+const lodash = require('lodash')
 
-module.exports = demoLernaSomeEmoji;
+module.exports = demoLernaSomeEmoji
 
-function demoLernaSomeEmoji() {
-    return "0️⃣ 0️⃣ 0️⃣"
+function demoLernaSomeEmoji () {
+  console.log('emoji()', lodash.random(0, 10))
+  return '0️⃣ 0️⃣ 0️⃣'
 }

@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = demoLernaSomeText;
+module.exports = demoLernaSomeText
 
-function demoLernaSomeText() {
-    return "zero-zero-zero"
+function demoLernaSomeText () {
+  return 'zero-zero-zero'
 }

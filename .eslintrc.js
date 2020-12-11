@@ -11,5 +11,17 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-  }
+  },
+  overrides: [
+    {
+      files: '*.test.js',
+      env: {
+        jest: true
+      },
+      rules: {
+        'no-unused-vars': 'off',
+        'import/no-extraneous-dependencies': 'off'
+      }
+    }
+  ]
 }

@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const demoLernaSomeEmoji = require('..');
+const demoLernaSomeEmoji = require('..')
 
 describe('demo-lerna-some-emoji', () => {
-    it('needs tests');
-});
+  it.skip('needs tests', () => {})
+})

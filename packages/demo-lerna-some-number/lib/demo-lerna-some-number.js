@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = demoLernaSomeNumber;
+module.exports = demoLernaSomeNumber
 
-function demoLernaSomeNumber() {
-    return "0.0.0"
+function demoLernaSomeNumber () {
+  return '0.0.0'
 }

@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const demoLernaSomeNumber = require('..');
+const demoLernaSomeNumber = require('..')
 
 describe('demo-lerna-some-number', () => {
-    it('needs tests');
-});
+  it.skip('needs tests', () => {})
+})
