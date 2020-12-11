@@ -5,7 +5,8 @@
     "bootstrap": "lerna bootstrap --hoist",
     "lint-fix": "eslint packages --fix",
     "pretest": "eslint packages",
-    "test": "jest"
+    "test": "jest",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.10",
